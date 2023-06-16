@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: darkgray;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+#increase-button {
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#decrease-button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#save-button {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#save-content {
+    padding-left: 70px;
+    text-align: left;
+}
+
+#save-title {
+    margin-right: 10px;
+    display: inline-block;
+    color: darkslategrey;
+    font-size: 15px;
+
+}
+
+#save-el {
+    display: inline;
+}
