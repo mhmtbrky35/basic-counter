@@ -10,6 +10,7 @@ function increase() {
     console.log(count)
     val.innerHTML = count
 }
+
 function decrease() {
     count = count - 1
     console.log(count)
@@ -29,21 +30,8 @@ function save() {
     val.innerHTML = 0
 }
 
-
-
-// let val = 0
-
-// document.getElementById("count-el")
-
-// function increase() {
-//     val = val + 1
-//     console.log(val)
-//     document.getElementById("count-el").innerText = val
-// }
-
-// function decrease() {
-//     val = val - 1
-//     console.log(val)
-//     document.getElementById("count-el").innerText = val
-// }
-
+function clear() {
+    console.log("clearing")
+    saved_str.innerHTML = " "
+    count = 0
+}
