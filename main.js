@@ -34,4 +34,5 @@ function clear_str() {
     console.log("clearing")
     saved_str.innerHTML = ""
     count = 0
+    val.innerHTML = 0
 }
