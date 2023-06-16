@@ -30,8 +30,8 @@ function save() {
     val.innerHTML = 0
 }
 
-function clear() {
+function clear_str() {
     console.log("clearing")
-    saved_str.innerHTML = " "
+    saved_str.innerHTML = ""
     count = 0
 }
